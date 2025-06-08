@@ -30,3 +30,48 @@ Each Monday, the strategy scans the option chain for large IV-HV spreads on week
 
 # 4. Performance Prediction
 Backtesting from 2019 to 2024 suggests robust performance. The expected annualized return ranges from 18% to 25%, with a Sharpe ratio between 1.8 and 2.2. The strategy shows a max drawdown of 8–12% and a monthly win rate of 75–80%. It performs best in low-volatility, range-bound markets but also finds opportunity during volatile periods like the 2020 COVID crash due to elevated IV-HV spreads. Key statistics include a 1.2% daily 95% VaR, information ratio ~1.6, and a Calmar ratio of 2.1. Beta to the S&P 500 is low (~0.15), indicating strong diversification potential. We expect consistent positive returns in stable market regimes, with some vulnerability to sudden volatility collapses or large directional moves.
+Here is the English translation for the “如何运行代码” section that you can add to your README:
+
+---
+
+## 5. How to Run the Code
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/chnoorlee/Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy.git
+cd Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy
+```
+
+2. **Create and activate a virtual environment (optional but recommended)**
+
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
+
+3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+> If there is no requirements.txt, please install the necessary packages manually based on the imports in the project, such as pandas, numpy, yfinance, matplotlib, etc.
+
+4. **Run the main script**
+
+Assuming the main entry point is main.py (please adjust the filename as needed):
+
+```bash
+python main.py
+```
+
+5. **Customize parameters or configuration**
+
+If needed, modify the configuration files or script parameters as described in the README or within the code.
+
+---
+
+If you need a more detailed or customized English section for your README based on your actual project files and dependencies, just let me know!
