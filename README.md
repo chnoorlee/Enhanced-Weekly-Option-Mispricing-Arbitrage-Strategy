@@ -1,4 +1,4 @@
-# # Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy 
+ # Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy 
 
 # 1. Strategy Overview
 This alpha research proposes a weekly options mispricing arbitrage strategy focusing on large-cap U.S. equities and liquid ETFs (e.g., SPY, QQQ). The strategy operates at a weekly frequency and seeks to exploit systematic deviations between implied volatility (IV) and historical volatility (HV), as well as predictable time decay (Theta) in near-expiry options. Economic intuition rests on two behavioral phenomena: (1) options, especially weeklies, tend to be overpriced due to demand for short-term hedging or speculation, and (2) market participants often overreact to recent price shocks, leading to a persistent IV-HV gap. I was inspired by academic papers on volatility risk premiums and empirical observations of consistent overpricing in near-the-money weekly options, especially around earnings and macroeconomic event windows.
