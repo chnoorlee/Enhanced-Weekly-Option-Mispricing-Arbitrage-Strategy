@@ -74,3 +74,5 @@ If needed, modify the configuration files or script parameters as described in t
 
 ---
 
+# 6. Additional Explaination
+**Finally, there is an explanation from the author: If you do not know how to perform step 5, you can download the code, extract it to a folder where you can find it, install Python on your local computer, download the dependencies in  requirement.txt using pip, and finally run the main.py code in cmd or powershell.**
