@@ -19,7 +19,8 @@ HVᵢ is the 20-day historical volatility
 
 Δᵢ is the option delta
 
-![image](https://github.com/user-attachments/assets/fd09cbc9-4c4e-473a-96a1-15a3c0802aaf)
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/f28b5acf-cf9f-4245-9b7f-4daa14fc7224" />
+
 
 
 This formulation penalizes directional exposure and favors options with high IV premia and rapid time decay.
