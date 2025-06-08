@@ -74,4 +74,3 @@ If needed, modify the configuration files or script parameters as described in t
 
 ---
 
-If you need a more detailed or customized English section for your README based on your actual project files and dependencies, just let me know!
