@@ -80,12 +80,13 @@ If needed, modify the configuration files or script parameters as described in t
 python main.py
 ```
 **code in cmd or powershell.**
+## The result of the backtest is shown in the following figure.
+![屏幕截图 2025-06-08 140158](https://github.com/user-attachments/assets/78b0113a-6f5d-4a09-9530-2d6e6f1f74e9)
 
-当然，以下是你提供的 README 内容的**中文翻译版本**，保持了原始格式和结构不变，便于你直接替换或维护双语版本：
 
 ---
 
-# Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy
+# 周度期权错定价套利策略
 
 # 1. 策略概述
 
@@ -166,3 +167,6 @@ python main.py
 ```bash
 python main.py
 ```
+
+## 回测效果如下图
+![屏幕截图 2025-06-08 140158](https://github.com/user-attachments/assets/78b0113a-6f5d-4a09-9530-2d6e6f1f74e9)
