@@ -5,6 +5,7 @@ This alpha research proposes a weekly options mispricing arbitrage strategy focu
 
 # 2. Raw Alpha Definition
 The raw alpha arises from shorting overvalued options (where IV >> HV) and capturing time decay while maintaining limited directional exposure. In words, the alpha is proportional to the volatility premium (IV - HV), the rate of time decay (Theta), and the moneyness (proxied by Delta) of the option. Formally:
+
 Alpha = ∑[wᵢ × (IVᵢ - HVᵢ) × Θᵢ × (1 - |Δᵢ|)]
 
 Where:
@@ -17,6 +18,9 @@ HVᵢ is the 20-day historical volatility
 Θᵢ is the time decay (Theta)
 
 Δᵢ is the option delta
+
+![image](https://github.com/user-attachments/assets/fd09cbc9-4c4e-473a-96a1-15a3c0802aaf)
+
 
 This formulation penalizes directional exposure and favors options with high IV premia and rapid time decay.
 
